@@ -21,6 +21,7 @@
 		6FBF757E19367F0500F9BB4B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FBF756019367F0400F9BB4B /* UIKit.framework */; };
 		6FBF758619367F0500F9BB4B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6FBF758419367F0500F9BB4B /* InfoPlist.strings */; };
 		6FBF758819367F0500F9BB4B /* GIT_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FBF758719367F0500F9BB4B /* GIT_TestTests.m */; };
+		6FBF75931936815000F9BB4B /* BBTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FBF75921936815000F9BB4B /* BBTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		6FBF758319367F0500F9BB4B /* GIT TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GIT TestTests-Info.plist"; sourceTree = "<group>"; };
 		6FBF758519367F0500F9BB4B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6FBF758719367F0500F9BB4B /* GIT_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GIT_TestTests.m; sourceTree = "<group>"; };
+		6FBF75911936815000F9BB4B /* BBTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBTest.h; sourceTree = "<group>"; };
+		6FBF75921936815000F9BB4B /* BBTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				6FBF756E19367F0500F9BB4B /* Main.storyboard */,
 				6FBF757119367F0500F9BB4B /* BBViewController.h */,
 				6FBF757219367F0500F9BB4B /* BBViewController.m */,
+				6FBF75911936815000F9BB4B /* BBTest.h */,
+				6FBF75921936815000F9BB4B /* BBTest.m */,
 				6FBF757419367F0500F9BB4B /* Images.xcassets */,
 				6FBF756319367F0400F9BB4B /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 				6FBF757319367F0500F9BB4B /* BBViewController.m in Sources */,
 				6FBF756D19367F0500F9BB4B /* BBAppDelegate.m in Sources */,
 				6FBF756919367F0400F9BB4B /* main.m in Sources */,
+				6FBF75931936815000F9BB4B /* BBTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
